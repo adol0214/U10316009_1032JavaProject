@@ -12,7 +12,7 @@ public class JavaProject extends JFrame implements ActionListener{
 	JLabel label = new JLabel(new ImageIcon("1.jpg"));
 	JLabel label1 = new JLabel(new ImageIcon("1.jpg"));
 	
-	Game(){
+	JavaProject(){
 		p2.setLayout(new GridLayout(1,2));
 		p2.add(label);
 		p2.add(label1);
